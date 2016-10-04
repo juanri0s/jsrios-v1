@@ -24,7 +24,7 @@
   }
 }
 
-@media (max-width: 350px){
+@media (max-width: 320px){
   .content {
     padding: .6em 0 0 .4em;
   }
