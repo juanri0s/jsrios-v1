@@ -49,5 +49,9 @@ html body {
   text-decoration: none;
 }
 
-a:link    { color: #222 }  /* unvisited links */
-a:hover   { color: #536DFE }  /* user hovers     */
+a:link { 
+  color: #222
+}  /* unvisited links */
+a:hover {
+  color: #536DFE
+}  /* user hovers     */
