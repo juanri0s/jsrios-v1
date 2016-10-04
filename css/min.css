@@ -30,19 +30,19 @@
   }
 
   h1 {
-    font-size: 1.6em;
+    font-size: 1.4em;
   }
 
   .divider {
-      width: 9.5em;
+      width: 9.2em;
   }
 
   .text {
-    font-size: .7em;
+    font-size: .5em;
   }
 
   .links a  {
-    font-size: .7em;
+    font-size: .5em;
     padding-right: 25px;
   }
 }
