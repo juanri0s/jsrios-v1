@@ -8,10 +8,32 @@
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: portrait) {
+    #title {
+      font-size: 10pt;
+      line-height: 30px;
+    }
 
+    .text {
+
+    }
+
+    .content {
+      max-width: 9em;
+      padding: 1em;
+    }
+
+    .divider {
+      width: 110px;
+      margin: auto;
+    }
+
+    .links {
+        max-width: 1em;
+        display: auto;
+    }
 }
 
-/*6++ Landscape */
+/*6+ Landscape */
 @media only screen
   and (min-device-width: 414px)
   and (max-device-width: 736px)
@@ -48,7 +70,30 @@
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+    #title {
+      font-size: 10pt;
+      line-height: 30px;
+    }
 
+    .content {
+      max-width: 9em;
+      padding: 1em;
+    }
+
+    .divider {
+      width: 110px;
+      margin: auto;
+    }
+
+    .links {
+        display: list-item;
+        line-height: 10px;
+        font-size: 10px;
+    }
+
+    .links a {
+      color: #536DFE;
+    }
 }
 
 /*5/5s Landscape */
