@@ -1,0 +1,53 @@
+html body {
+  padding: 0;
+  margin: 0;
+}
+
+#title {
+  color: #536DFE;
+  font-family: 'Oswald', sans-serif;
+  font-size: 200%;
+  line-height: 50%;
+  float: left;
+}
+
+.divider {
+  width: 400px;
+  float: left;
+  margin-left: 30px;
+  border-bottom: 2px #536DFE solid;
+}
+
+.content {
+  display: block;
+  max-width: 40em;
+  padding: 4em 15vw 0 2em;
+}
+
+.text {
+  float: left;
+  max-width: 100%;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 80%;
+  letter-spacing: 2px;
+  line-height: 1.2em;
+  color: #494949;
+}
+
+.links {
+  float: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links a {
+  padding-left:;
+  padding-right: 15px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 15px;
+  color: #222;
+  text-decoration: none;
+}
+
+a:link    { color: #222 }  /* unvisited links */
+a:hover   { color: #536DFE }  /* user hovers     */
