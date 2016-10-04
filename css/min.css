@@ -39,7 +39,30 @@
   and (max-device-width: 736px)
   and (-webkit-min-device-pixel-ratio: 3)
   and (orientation: landscape) {
+    #title {
+      font-size: 10pt;
+      line-height: 30px;
+    }
 
+    .content {
+      max-width: 9em;
+      padding: 1em;
+    }
+
+    .divider {
+      width: 110px;
+      margin: auto;
+    }
+
+    .links {
+        display: list-item;
+        line-height: 10px;
+        font-size: 10px;
+    }
+
+    .links a {
+      color: #536DFE;
+    }
 }
 
 /* ----------- iPhone 6 ----------- */
@@ -50,7 +73,30 @@
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
+    #title {
+      font-size: 10pt;
+      line-height: 30px;
+    }
 
+    .content {
+      max-width: 9em;
+      padding: 1em;
+    }
+
+    .divider {
+      width: 110px;
+      margin: auto;
+    }
+
+    .links {
+        display: list-item;
+        line-height: 10px;
+        font-size: 10px;
+    }
+
+    .links a {
+      color: #536DFE;
+    }
 }
 
 /*6 Landscape */
@@ -59,7 +105,30 @@
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
+    #title {
+      font-size: 10pt;
+      line-height: 30px;
+    }
 
+    .content {
+      max-width: 9em;
+      padding: 1em;
+    }
+
+    .divider {
+      width: 110px;
+      margin: auto;
+    }
+
+    .links {
+        display: list-item;
+        line-height: 10px;
+        font-size: 10px;
+    }
+
+    .links a {
+      color: #536DFE;
+    }
 }
 
 /* ----------- iPhone 5 and 5S ----------- */
@@ -102,7 +171,30 @@
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) {
+    #title {
+      font-size: 10pt;
+      line-height: 30px;
+    }
 
+    .content {
+      max-width: 9em;
+      padding: 1em;
+    }
+
+    .divider {
+      width: 110px;
+      margin: auto;
+    }
+
+    .links {
+        display: list-item;
+        line-height: 10px;
+        font-size: 10px;
+    }
+
+    .links a {
+      color: #536DFE;
+    }
 }
 
 /* ----------- iPad mini ----------- */
@@ -112,7 +204,30 @@
   and (max-device-width: 1024px)
   and (orientation: portrait)
   and (-webkit-min-device-pixel-ratio: 1) {
+    #title {
+      font-size: 10pt;
+      line-height: 30px;
+    }
 
+    .content {
+      max-width: 9em;
+      padding: 1em;
+    }
+
+    .divider {
+      width: 110px;
+      margin: auto;
+    }
+
+    .links {
+        display: list-item;
+        line-height: 10px;
+        font-size: 10px;
+    }
+
+    .links a {
+      color: #536DFE;
+    }
 }
 
 /* Landscape */
@@ -121,5 +236,28 @@
   and (max-device-width: 1024px)
   and (orientation: landscape)
   and (-webkit-min-device-pixel-ratio: 1) {
+    #title {
+      font-size: 10pt;
+      line-height: 30px;
+    }
 
+    .content {
+      max-width: 9em;
+      padding: 1em;
+    }
+
+    .divider {
+      width: 110px;
+      margin: auto;
+    }
+
+    .links {
+        display: list-item;
+        line-height: 10px;
+        font-size: 10px;
+    }
+
+    .links a {
+      color: #536DFE;
+    }
 }
