@@ -48,6 +48,12 @@
   }
 }
 
+@media (max-width: 400px){
+  p {
+    font-size: .98em;
+  }
+}
+
 /* ----------- iPhone 5 and 5S ----------- */
 
 /* Portrait and Landscape */
@@ -88,11 +94,11 @@
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
     h1 {
-      font-size: 1.65em;
+      font-size: 1.55em;
       max-width: 365px;
     }
     .divider {
-        width: 8.8em;
+        width: 9em;
     }
 
     p.links a {
