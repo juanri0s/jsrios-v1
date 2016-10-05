@@ -66,11 +66,11 @@
   and (max-device-width: 667px)
   and (-webkit-min-device-pixel-ratio: 2) {
     h1 {
-      font-size: 1.70em;
+      font-size: 1.65em;
       max-width: 365px;
     }
     .divider {
-        width: 10em;
+        width: 9em;
     }
 }
 
