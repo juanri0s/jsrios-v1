@@ -21,13 +21,13 @@ html body {
 }
 
 .content {
+  float: left;
   display: block;
   max-width: 40em;
   padding: 4em 15vw 0 2em;
 }
 
 p {
-  float: left;
   max-width: 100%;
   font-family: 'Ubuntu', sans-serif;
   font-size: .9em;
@@ -36,13 +36,11 @@ p {
   color: #494949;
 }
 
-.links {
-  float: left;
-  display: flex;
-  justify-content: space-between;
+.text {
+  padding-top: 2px;
 }
 
-.links a {
+p.links a {
   padding-right: 15px;
   font-family: 'Ubuntu', sans-serif;
   font-size: .6em;
@@ -50,9 +48,22 @@ p {
   text-decoration: none;
 }
 
-a:link {
+a {
+  color: #222;
+}
+
+a:visited {
   color: #222
 }  /* unvisited links */
+
 a:hover {
+  color: #536DFE
+}  /* user hovers     */
+
+p.links a:visited {
+  color: #222
+}  /* unvisited links */
+
+p.links a:hover {
   color: #536DFE
 }  /* user hovers     */
