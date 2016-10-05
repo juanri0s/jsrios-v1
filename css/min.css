@@ -55,7 +55,27 @@
   and (min-device-width: 320px)
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
+    h1 {
+      font-size: 1.45em;
+      max-width: 365px;
+    }
 
+    .content {
+      max-width: 365px;
+    }
+
+    p {
+      font-size: .8em;
+    }
+
+    p.links a {
+      font-size: .55em;
+      padding-right: 5px;
+    }
+
+    .divider {
+        width: 9em;
+    }
 }
 
 /* ----------- iPhone 6 ----------- */
