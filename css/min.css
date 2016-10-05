@@ -76,7 +76,7 @@
       width: 9em;
     }
     .content {
-      padding-top: .1em;
+      padding-top: .2em;
   }
 }
 
@@ -93,6 +93,11 @@
     }
     .divider {
         width: 8.8em;
+    }
+
+    p.links a {
+      font-size: .65em;
+      padding-right: 5px;
     }
 }
 
