@@ -16,7 +16,7 @@
     font-size: .5em;
   }
 
-  .links a  {
+  p.links a  {
     font-size: .5em;
     padding-right: 25px;
   }
@@ -42,8 +42,43 @@
     justify-content: center;
   }
 
-  .links a  {
-    font-size: .8em;
-    padding-right: 25px;
+  p.links a  {
+    font-size: .65em;
+    padding-right: 5px;
   }
+}
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    h1 {
+      font-size: 1.7em;
+    }
+    .divider {
+        width: 10em;
+    }
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+  and (min-device-width: 414px)
+  and (max-device-width: 736px)
+  and (-webkit-min-device-pixel-ratio: 3) {
+
 }
