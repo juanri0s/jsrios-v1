@@ -17,20 +17,20 @@ html body {
   width: 13em;
   float: left;
   margin-left: 30px;
-  border-bottom: 2px #536DFE solid;
+  border-bottom: 3px #536DFE solid;
 }
 
 .content {
   float: left;
   display: block;
   max-width: 40em;
-  padding: 4em 15vw 0 2em;
+  padding: 3.3em 15vw 0 2em;
 }
 
 p {
   max-width: 100%;
   font-family: 'Ubuntu', sans-serif;
-  font-size: .9em;
+  font-size: .79em;
   letter-spacing: 2px;
   line-height: 1.2em;
   color: #494949;
