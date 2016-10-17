@@ -18,7 +18,7 @@
 
   p.links a  {
     font-size: .5em;
-    padding-right: 35px;
+    padding-right: 30px;
   }
 
 }
@@ -45,7 +45,7 @@
 
   p.links a  {
     font-size: .65em;
-    padding-right: 35px;
+    padding-right: 30px;
   }
 }
 
@@ -76,7 +76,7 @@
 
     p.links a {
       font-size: .55em;
-      padding-right: 40px;
+      padding-right: 30px;
     }
 
     .divider {
@@ -103,7 +103,7 @@
 
     p.links a {
       font-size: .65em;
-      padding-right: 15px;
+      padding-right: 10px;
     }
 }
 
