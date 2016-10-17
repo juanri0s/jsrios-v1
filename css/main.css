@@ -67,3 +67,13 @@ p.links a:visited {
 p.links a:hover {
   color: #536DFE
 }  /* user hovers     */
+
+.icon {
+  height: 50px;
+  width: 50px;
+}
+
+img:hover {
+  opacity: .5;
+  filter: alpha(opacity=100); /* For IE8 and earlier */
+}
