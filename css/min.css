@@ -57,7 +57,7 @@
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
     h1 {
-      font-size: 1.6em;
+      font-size: 1.8em;
     }
 
     .content {
