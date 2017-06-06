@@ -1,15 +1,10 @@
-@media (max-width: 320px){
+@media (max-width: 325px){
   .content {
     padding: .6em 0 0 .4em;
   }
 
   h1 {
     font-size: 1.3em;
-  }
-
-  .divider {
-      width: 9em;
-      margin-left: 10px
   }
 
   p {
@@ -20,7 +15,6 @@
     font-size: .5em;
     padding-right: 30px;
   }
-
 }
 
 @media (max-width: 470px){
@@ -29,11 +23,11 @@
   }
 
   h1 {
-    font-size: 1.8em;
+    font-size: 2em;
   }
 
-  .divider {
-      width: 10.5em;
+  #title {
+    line-height: normal;
   }
 }
 
@@ -63,7 +57,7 @@
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
     h1 {
-      font-size: 1.25em;
+      font-size: 1.6em;
     }
 
     .content {
@@ -76,15 +70,21 @@
 
     p.links a {
       font-size: .55em;
-      padding-right: 30px;
+      padding-right: 10px;
     }
 
-    .divider {
-      width: 9em;
-    }
     .content {
       padding-top: .2em;
   }
+
+    .icon {
+      height: 45px;
+      width: 45px;
+    }
+
+    .footer{
+
+    }
 }
 
 /* ----------- iPhone 6 ----------- */
@@ -96,9 +96,6 @@
   and (-webkit-min-device-pixel-ratio: 2) {
     h1 {
       font-size: 1.50em;
-    }
-    .divider {
-        width: 9em;
     }
 
     p.links a {

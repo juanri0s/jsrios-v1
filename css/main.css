@@ -76,7 +76,7 @@ img:hover {
 footer {
   bottom: 0px;
   background-color: #ececf1;
-  position: absolute;
+  position: fixed;
   width: 100%;
   text-align: center;
   font-size: 12px;
